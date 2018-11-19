@@ -1,0 +1,33 @@
+{
+  "name": "@jdcfe/yep-tools",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.3.1",
+    "colorful": "^2.1.0",
+    "commander": "^2.19.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-header": "^2.0.5",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "rimraf": "^2.6.2"
+  },
+  "bin": {
+    "yep-tools": "./bin/yep-tools"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.1"
+  }
+}
