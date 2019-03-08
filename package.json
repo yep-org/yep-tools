@@ -1,6 +1,6 @@
 {
   "name": "@jdcfe/yep-tools",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.1.5",
@@ -10,10 +10,11 @@
     "@babel/preset-env": "^7.1.5",
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
     "autoprefixer": "^9.3.1",
     "colorful": "^2.1.0",
     "commander": "^2.19.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.0",
     "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-debug": "^4.0.0",
@@ -22,12 +23,19 @@
     "gulp-rename": "^1.4.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
-    "rimraf": "^2.6.2"
+    "gulp-typescript": "^5.0.0",
+    "merge2": "^1.2.3",
+    "rimraf": "^2.6.2",
+    "through2": "^3.0.0",
+    "typescript": "^3.3.3333"
   },
   "bin": {
     "yep-tools": "./bin/yep-tools"
   },
   "devDependencies": {
     "prettier": "^1.15.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
