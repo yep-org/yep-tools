@@ -1,6 +1,6 @@
 {
   "name": "@jdcfe/yep-tools",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "license": "MIT",
   "dependencies": {
     "@babel/core": "^7.1.5",
