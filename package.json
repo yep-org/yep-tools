@@ -2,6 +2,9 @@
   "name": "@jdcfe/yep-tools",
   "version": "0.0.8",
   "license": "MIT",
+  "scripts": {
+    "pub": "./publish.sh"
+  },
   "dependencies": {
     "@babel/core": "^7.1.5",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
