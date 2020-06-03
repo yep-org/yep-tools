@@ -4,3 +4,4 @@ node_modules/
 .editorconfig
 .prettierrc
 yarn.lock
+package-lock.json
