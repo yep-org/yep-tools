@@ -5,3 +5,4 @@ node_modules/
 .prettierrc
 yarn.lock
 package-lock.json
+publish.sh
