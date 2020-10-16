@@ -5,7 +5,7 @@ require('colorful').colorful();
 const program = require('commander');
 const gulp = require('gulp');
 const pkg = require('../package');
-const dev = require('../lib/dev')
+
 program.on('--help', () => {
   console.log(' Usage'.to.bold.blue.color);
   console.log();
@@ -46,7 +46,7 @@ if (!task) {
   console.log(task);
   switch (task) {
     case 'dev':
-      dev()
+      require('../lib/dev')()
       break;
     default :
       runTask(task);
