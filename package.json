@@ -1,6 +1,6 @@
 {
   "name": "@jdcfe/yep-tools",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "license": "MIT",
   "scripts": {
     "pub": "./publish.sh"
@@ -17,7 +17,7 @@
     "@babel/preset-typescript": "^7.3.3",
     "@typescript-eslint/eslint-plugin": "^3.0.0",
     "@typescript-eslint/parser": "^3.0.0",
-    "autoprefixer": "^9.3.1",
+    "autoprefixer": "^10.0.0",
     "babel-eslint": "^10.0.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-named-asset-import": "^0.3.6",

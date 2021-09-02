@@ -48,6 +48,9 @@ if (!task) {
     case 'dev':
       require('../lib/dev')()
       break;
+    case 'build:demo':
+      require('../lib/build')()
+      break;
     default :
       runTask(task);
   }
