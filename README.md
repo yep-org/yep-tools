@@ -6,12 +6,17 @@ Tools for not only [Yep-React](https://github.com/jdf2e/yep-react) but also reac
 
 ```bash
 yep-tools run dev
-yep-tools run dist
+yep-tools run dist 
 yep-tools run compile
 yep-tools run clean
 yep-tools run watch
+yep-tools run build:demo
 ```
 
 ## yep-tools run dev 
 
 组件的demo默认example文件下，index.tsx,样式支持css、.module.css、scss、.module.scss
+
+## yep-tools run build:demo
+
+编译构建组件的demo，生成可预览的文件
